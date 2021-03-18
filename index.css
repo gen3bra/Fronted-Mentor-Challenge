@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kumbh+Sans:wght@300;400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #19a2ae;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: top -650px left -760px, bottom -670px right -760px; }
+
+.one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh; }
+  .one .main {
+    border: 1px solid none;
+    width: 310px;
+    height: 340px;
+    border-radius: 5%;
+    background-color: white; }
+    .one .main .photo {
+      height: 130px;
+      background-image: url(/images/bg-pattern-card.svg);
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em; }
+      .one .main .photo img {
+        border-radius: 50%;
+        border: 5px solid white;
+        margin-top: 78px;
+        margin-left: 95px; }
+    .one .main .name {
+      text-align: center;
+      margin-top: 75px;
+      font-family: 'Kumbh Sans', sans-serif;
+      font-weight: bold; }
+      .one .main .name span {
+        color: gray;
+        font-size: 16px;
+        font-weight: 500; }
+      .one .main .name .second {
+        font-size: 12px;
+        display: block;
+        margin-top: 10px; }
+    .one .main hr {
+      border: 0,5px solid gray;
+      opacity: 0.2;
+      margin-top: 20px; }
+    .one .main .numbers {
+      font-size: 15px;
+      font-weight: bolder;
+      font-family: 'Kumbh Sans', sans-serif;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      margin-top: 23px;
+      margin-left: 13px; }
+    .one .main .followers {
+      font-size: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      margin-top: 3px;
+      color: gray;
+      letter-spacing: 1px; }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #19a2ae;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top -550px left -300px, bottom -680px right -235px; } }
+
+/*# sourceMappingURL=index.css.map */
