@@ -31,7 +31,7 @@ body {
     background-color: white; }
     .one .main .photo {
       height: 130px;
-      background-image: url(/images/bg-pattern-card.svg);
+      background-image: url(./bg-pattern-card.svg);
       border-top-left-radius: 1em;
       border-top-right-radius: 1em; }
       .one .main .photo img {
